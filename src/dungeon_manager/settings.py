@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.accounts',
+    'apps.users',
+    # 'apps.characters',
+    # 'apps.campaigns',
+    # 'apps.quests',
+    # 'apps.items',
+    # 'apps.combat',
 ]
 
 MIDDLEWARE = [

@@ -11,7 +11,7 @@ http://192.168.2.44:8000/
 
 # Installation für Entwickler
 ```
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 # Fehlerbehebung
