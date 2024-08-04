@@ -22,3 +22,8 @@ python src/manage.py makemigrations
 ``` cmd
 python src/manage.py migrate
 ```
+
+
+``` cmd
+python src/manage.py createsuperuser --username=Admin --email=jacqueline.antonetti@yahoo.de
+```
