@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.control {
+    width: 300px;
+    background-color: #EEEEEE;
+    height: -webkit-fill-available;
+    display: block;
+    position: absolute;
+    z-index: 0;
+}
+
+.listing {
+    width: 80%;
+}
+
+section {
+    width: 100%;
+}

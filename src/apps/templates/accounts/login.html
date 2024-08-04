@@ -1,14 +1,25 @@
-
-
 {% extends "base.html" %}
  
 {% block content %}
 
 
-<form method="POST">
-    {% csrf_token %}
-    <!-- Deine Login-Felder hier -->
-    <button type="submit">Login</button>
-</form>
+<div class="container">
+    <form action="{% url 'login' %}" method="post">
+        {% csrf_token %}
+            <label for="username">Benutzername:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Passwort:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+    </form>
+</div>
+<br>
+<div class="container">
+    <form action="{% url 'register' %}" method="post">
+        {% csrf_token %}
+        Noch kein Account? Dann erstell dir einen:
+        <button type="submit">Registrieren</button>
+    </form>
+</div>
 
 {% endblock %}
