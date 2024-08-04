@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        {% load static %}
+        <link rel="stylesheet" href="{% static '/base.css' %}">
+        <link rel="shortcut icon" type="ico" href="{% static 'images/favicon.ico' %}" >
+        <title>Dungeon Manager</title>
+    </head>
+    <body>
+        <header>
+            <h1>Dungeon Manager</h1>
+        </header>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer>
+            <p>Erstellt von: Jacqueline Antonetti Lamorgese</p>
+        </footer>
+
+    </body>
+</html> 
