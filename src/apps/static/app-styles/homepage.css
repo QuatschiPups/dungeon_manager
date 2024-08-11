@@ -4,13 +4,18 @@ main {
 }
 
 .control {
-    width: 300px;
+    width: 10%;
     background-color: #EEEEEE;
-    height: -webkit-fill-available;
-    display: block;
-    position: absolute;
+    height: 91%;
+    display: flex;
+    position: fixed;
     z-index: 0;
+    top: 80px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
 }
+
 
 .listing {
     width: 80%;
@@ -18,4 +23,9 @@ main {
 
 section {
     width: 100%;
+}
+
+form {
+    position: absolute;
+    bottom: 10px;
 }
