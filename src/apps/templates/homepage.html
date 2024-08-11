@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+ 
+{% block content %}
+
+<aside class="control">
+    Hallo {{ username }}
+
+    <form action="{% url 'logout' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+</aside>
+
+<aside class="listing">
+    <section>
+        Sektion 1
+    </section>
+    <section>
+        Sektion 1
+    </section>
+</aside>
+
+
+{% endblock %}

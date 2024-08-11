@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.control {
+    width: 10%;
+    background-color: #EEEEEE;
+    height: 91%;
+    display: flex;
+    position: fixed;
+    z-index: 0;
+    top: 80px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+
+.listing {
+    width: 80%;
+}
+
+section {
+    width: 100%;
+}
+
+form {
+    position: absolute;
+    bottom: 10px;
+}
